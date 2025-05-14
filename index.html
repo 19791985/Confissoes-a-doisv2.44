@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confissões a Dois</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Tela de Introdução -->
+      <div id="intro-screen">
+        <h1>Confissões a Dois</h1>
+        <p>Um quiz íntimo para explorar a cumplicidade, o desejo e a verdade entre o casal.</p>
+        <button id="start-btn">Começar</button>
+      </div>
+
+      <!-- Resumo da Fase -->
+      <div id="phase-summary" class="hidden">
+        <h2 id="phase-title"></h2>
+        <p id="phase-description"></p>
+        <button id="start-phase-btn">Iniciar Fase</button>
+      </div>
+
+      <!-- Quiz Container -->
+      <div id="quiz-container" class="hidden">
+        <div id="question-container">
+          <h2 id="question"></h2>
+          <div id="answers"></div>
+        </div>
+      </div>
+
+      <!-- Resultado -->
+      <div id="result" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
