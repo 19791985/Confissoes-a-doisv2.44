@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin: 20px;
+}
+
+h1 {
+  color: #e91e63;
+  font-size: 2.5em;
+}
+
+#intro-screen p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d81b60;
+}
+
+.hidden {
+  display: none;
+}
+
+#phase-summary {
+  margin-top: 40px;
+}
+
+#question-container {
+  margin-top: 30px;
+}
+
+#question {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#answers button {
+  margin: 10px;
+  width: 70%;
+}
